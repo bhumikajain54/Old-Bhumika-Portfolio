@@ -1,16 +1,71 @@
-<<<<<<< HEAD
-# Old-Bhumika-Portfolio
-=======
-# React + Vite
+# Bhumika Jain - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, high-performance, and visually stunning portfolio website built with modern web technologies. This project showcases my skills, experience, and projects as a Full Stack Web Developer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Link to your deployed portfolio (e.g., Netlify/Vercel)]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Modern UI/UX**: Sleek dark-themed design with premium aesthetics.
+- **GSAP Animations**: Smooth, high-quality scroll-triggered animations and transitions.
+- **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile devices.
+- **Interactive Components**: Custom-built project sliders, hover effects, and a dynamic typewriter effect.
+- **Project Showcase**: Detailed gallery of web development and software projects.
+- **Smooth Navigation**: One-page navigation with seamless scrolling between sections.
+- **Functional Contact Form**: Integrated with Formspree for direct communication.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend**: React.js
+- **Animations**: GSAP (GreenSock Animation Platform) & `@gsap/react`
+- **Styling**: Vanilla CSS3 (Custom Design System)
+- **Tooling**: Vite (Build Tool)
+- **Deployment**: [Mention your deployment platform]
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> c887dc9 (Initial commit with updated portfolio details and fixes)
+## 📂 Project Structure
+```bash
+src/
+├── assets/             # Images, icons, and static assets
+├── components/         # Reusable React components
+│   ├── About/          # Personal info and education details
+│   ├── Certification/  # Professional certificates
+│   ├── Contact/        # Contact form and location
+│   ├── Education/      # Academic background
+│   ├── Experience/     # Work experience details
+│   ├── Home/           # Hero section with typewriter effect
+│   ├── Navbar/         # Responsive navigation bar
+│   ├── Project/        # Portfolio projects showcase
+│   └── Skills/         # Technical skill set
+├── App.jsx             # Main application entry
+└── index.css           # Global styles and design tokens
+```
+
+## ⚙️ Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/bhumikajain54/Old-Bhumika-Portfolio.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd Old-Bhumika-Portfolio
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Contact
+- **Email**: [bhumikajain182001@gmail.com]
+- **LinkedIn**: [https://www.linkedin.com/in/jain-bhumika/]
+- **GitHub**: [https://github.com/bhumikajain54]
+- **Portfolio**: [https://beautiful-cheesecake-59695c.netlify.app]
+
+---
+Developed with ❤️ by **Bhumika Jain**
