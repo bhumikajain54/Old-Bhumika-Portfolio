@@ -92,7 +92,7 @@ Feel free to reach out if you have any questions or would like to collaborate!
 
 -   **LinkedIn**: [Bhumika Jain](https://www.linkedin.com/in/bhumika-jain-548486241/)
 -   **Email**: [bhumikajain54@gmail.com](mailto:bhumikajain54@gmail.com)
--   **Portfolio**: [Live Demo](https://bhumikajain54.github.io/Old-Bhumika-Portfolio/)
+-   **Portfolio**: [Live Demo](https://beautiful-cheesecake-59695c.netlify.app/)
 
 ---
 
