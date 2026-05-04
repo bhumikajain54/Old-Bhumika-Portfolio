@@ -18,11 +18,9 @@ function Project() {
     gsap.from("#para",{
       y:100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: "#para",
-        scroller: "body",
         scrub: 2,
         start: "top 80%",
         end: "top 30%"
@@ -31,11 +29,9 @@ function Project() {
      gsap.from(".slider",{
       y:100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: ".slider",
-        scroller: "body",
         scrub: 2,
         start: "top 80%",
         end: "top 30%"

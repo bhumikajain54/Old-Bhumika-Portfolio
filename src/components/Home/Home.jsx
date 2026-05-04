@@ -1,31 +1,30 @@
 import React from 'react';
 import './home.css';
-import man from '../../assets/man.png'; // Ensure this path is correct
+import man from '../../assets/man.png';
 import Typewriter from 'typewriter-effect';
-import {useGSAP} from "@gsap/react";
+import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Link } from 'react-scroll';
+
 function Home() {
   useGSAP(() => {
     let tl = gsap.timeline();
     tl.from(".line1", {
       y: 80,
       duration: 1,
-      opacity: 0,
     })
     tl.from(".line2", {
       y: 80,
       duration: 1,
-      opacity: 0,
     })
     tl.from(".line3", {
       y: 80,
       duration: 1,
-      opacity: 0,
     })
     gsap.from(".righthome img", {
       x: 200,
       duration: 1,
-      opacity: 0})
+    })
   })
   return (
     <div id="home">
@@ -47,7 +46,9 @@ function Home() {
               }}
             />
           </div>
-          <button>HIRE ME</button>
+          <Link to="contact" smooth={true} duration={500}>
+            <button>HIRE ME</button>
+          </Link>
         </div>
       </div>
       <div className="righthome">

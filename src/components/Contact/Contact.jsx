@@ -6,27 +6,23 @@ import { ScrollTrigger } from 'gsap/all';
 gsap.registerPlugin(ScrollTrigger);
 function Contact() {
   useGSAP(() => {
-    gsap.from("leftcontact img", {
-      x:-100,
+    gsap.from(".leftcontact img", {
+      x: -100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
-        trigger: "leftcontact img",
-        scroll: "body",
+        trigger: ".leftcontact img",
         scrub: 2,
         start: "top 80%",
         end: "top 30%",
       }
     })
     gsap.from("form", {
-      x:-100,
+      x: -100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: "form",
-        scroll: "body",
         scrub: 2,
         start: "top 80%",
         end: "top 30%",
@@ -36,16 +32,16 @@ function Contact() {
   return (
     <div id="contact">
       <div className="leftcontact">
-        <img src={con} alt=""/>
-        </div>
+        <img src={con} alt="" />
+      </div>
       <div className="rightcontact">
-        <form action= "https://formspree.io/f/mqalzqov" method='POST'>
-          <input name="Username" type="text" placeholder='Name'/>
-          <input name="Email" type="email" placeholder='Email'/>
+        <form action="https://formspree.io/f/mqalzqov" method='POST'>
+          <input name="Username" type="text" placeholder='Name' />
+          <input name="Email" type="email" placeholder='Email' />
           <textarea name="message" id="textarea" placeholder='message me'></textarea>
           <button type="submit" id="btn">Submit</button>
-          </form>
-        </div> 
+        </form>
+      </div>
     </div>
   )
 }

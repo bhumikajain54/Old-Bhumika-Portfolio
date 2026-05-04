@@ -14,11 +14,9 @@ function Skills() {
   useGSAP(() => {
        gsap.from("#para2", {
          y: 100,
-         opacity: 0,
          duration: 1,
          scrollTrigger: {
            trigger: "#para2",
-           scroller: "body",
            scrub: 2,
            start: "top 80%",
            end: "top 30%",
@@ -26,11 +24,9 @@ function Skills() {
        })
        gsap.from(".slider", {
          y: 100,
-         opacity: 0,
          duration: 1,
          scrollTrigger: {
            trigger: ".slider",
-           scroller: "body",
            scrub: 2,
            start: "top 80%",
            end: "top 30%",

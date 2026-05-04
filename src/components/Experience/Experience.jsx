@@ -7,11 +7,9 @@ function Experience() {
   useGSAP(() => {
        gsap.from("#para1", {
          y: 100,
-         opacity: 0,
          duration: 1,
          scrollTrigger: {
            trigger: "#para1",
-           scroller: "body",
            scrub: 2,
            start: "top 80%",
            end: "top 30%",
@@ -19,11 +17,9 @@ function Experience() {
        })
        gsap.from(".slider", {
          y: 100,
-         opacity: 0,
          duration: 1,
          scrollTrigger: {
            trigger: ".slider",
-           scroller: "body",
            scrub: 2,
            start: "top 80%",
            end: "top 30%",

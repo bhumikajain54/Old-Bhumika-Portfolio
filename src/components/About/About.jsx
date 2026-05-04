@@ -15,11 +15,9 @@ function About() {
     gsap.from(".circle",{
       x:-100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: ".circle",
-        scroller: "body",
         scrub: 2,
         start: "top 60%",
         end: "top 30%",
@@ -28,11 +26,9 @@ function About() {
      gsap.from(".line",{
       x:-100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: ".line",
-        scroller: "body",
         scrub: 2,
         start: "top 60%",
         end: "top 30%",
@@ -41,11 +37,9 @@ function About() {
      gsap.from(".aboutdetails h1",{
       x:100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: ".aboutdetails h1",
-        scroller: "body",
         scrub: 2,
         start: "top 60%",
         end: "top 30%",
@@ -54,11 +48,9 @@ function About() {
     gsap.from(".aboutdetails ul",{
       y:100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: ".aboutdetails ul",
-        scroller: "body",
         scrub: 2,
         start: "top 60%",
         end: "top 30%",
@@ -67,11 +59,9 @@ function About() {
     gsap.from(".rightabout",{
       x:100,
       duration: 1,
-      opacity: 0,
       stagger: 1,
       scrollTrigger: {
         trigger: ".rightabout",
-        scroller: "body",
         scrub: 2,
         start: "top 60%",
         end: "top 30%",
@@ -102,7 +92,7 @@ function About() {
                 <span>GENDER</span> : FEMALE
               </li>
               <li>
-                <span>LANGUAGE KNOWN</span> : HINDIENGLISH
+                <span>LANGUAGE KNOWN</span> : HINDI & ENGLISH
               </li>
             </ul>
           </div>
