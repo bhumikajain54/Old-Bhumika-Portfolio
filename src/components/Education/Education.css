@@ -1,0 +1,55 @@
+#education {
+    width: 100%;
+    height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+}
+#paras {
+    font-size: 4vmax;
+    background: linear-gradient(to right, rgb(203, 53, 108), white);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.slider {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 30px;
+    padding: 20px;
+    scrollbar-width: none; 
+}
+.slider::-webkit-scrollbar {
+    display: none; 
+}
+.edu-card {
+    flex: 0 0 auto;
+    min-width: 300px;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Times New Roman ', sans-serif;
+    transition: transform 0.3s ease;
+}
+.edu-card:hover {
+    transform: scale(1.05);
+}
+.edu-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #80d0ff;
+}
+.edu-card p {
+    margin: 2px 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}

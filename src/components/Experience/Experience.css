@@ -1,0 +1,55 @@
+#experience {
+    width: 100%;
+    height: 80vh; /* Match height with other sections */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+}
+#para1 {
+    font-size: 4vmax;
+    background: linear-gradient(to right, rgb(203, 53, 108), white);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.slider {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 30px;
+    scrollbar-width: none; /* Firefox */
+    padding: 20px;
+}
+.slider::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+.exp-card {
+    flex: 0 0 auto;
+    min-width: 300px;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: sans-serif;
+    transition: transform 0.3s ease;
+}
+.exp-card:hover {
+    transform: scale(1.05);
+}
+.exp-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+    color: #80d0ff;
+}
+.exp-card p {
+    margin: 2px 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
